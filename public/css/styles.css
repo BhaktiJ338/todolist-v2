@@ -12,7 +12,7 @@ h1 {
 }
 
 .box {
-  max-width: 400px;
+  width: 400px;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
@@ -100,5 +100,11 @@ footer {
   text-align: center;
 }
 
-
-
+@media (max-width: 1200px){
+  .box{
+    width : 60%;
+  }
+  input[type="text"] {
+    width:80%;
+  }
+}
